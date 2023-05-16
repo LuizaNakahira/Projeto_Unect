@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uTak 3.0</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="topo">
+            <img class="LogoUnect" src="ImagemLight.png">
+            <h1>uTask 3.0</h1>
+            <div class="toggle">
+                <input id="switch" type="checkbox" name="theme">
+                <label for="switch"><span class="material-icons" id="light_mode">light_mode</span></label>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="FraseDoDia">
+            <div class="circulo_rosinha">
+                <div class="circulo_amarelo"><span class="material-icons lampada">tips_and_updates</span></div>
+            </div>
+            <p class="frase">Frase do dia</p>
+        </div>
+    </nav>
+
+    <main>
+        <div class="to-do">
+            <div class="alinhamento-to-do">
+                <div class="colum1">
+                    <h2>A fazer</h2>
+                    <span class="material-icons" id="adicionar">add</span>
+                    <div class="carousel-wrapper">
+                        <ul class="primeira scrollable-ul">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="colum2">
+                    <h2>Em andamento</h2>
+                    <div class="carousel-wrapper">
+                        <ul class="segundo scrollable-ul">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="colum3">
+                    <h2>Feito</h2>
+                    <div class="carousel-wrapper">
+                        <ul class="terceiro scrollable-ul">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <p class="baixo1">© Processo de Trainees<strong> Unect Jr.</strong> 2023.1</p>
+            <div class="rodape2">
+                <p class="baixo2">Feito com</p><span class="material-icons" id="favorite">favorite</span>
+                <p class="baixo2">por <strong>Luiza Nakahira</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
